@@ -1,7 +1,7 @@
 #!/bin/sh
 
 git clone https://github.com/ted027/Records-web.git
-pip3 install -e Records-web/commands
+pip install -e Records-web/commands
 records-dev update records
 
 cd Records-web/webui

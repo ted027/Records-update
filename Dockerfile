@@ -9,8 +9,8 @@ RUN set -ex && \
 
 RUN set -ex && \
     ln -s /usr/bin/python3.6 /usr/bin/python && \
-    ln -s /usr/bin/pip3.6 /usr/bin/pip3
-    # pip install awscli
+    ln -s /usr/bin/pip3 /usr/bin/pip && \
+    pip install awscli
 
 COPY entrypoint.sh /var/tmp
 CMD ["var/tmp/entrypoint.sh"]
