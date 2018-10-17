@@ -1,4 +1,5 @@
 ## usage
 
 - clone this repository
-- `./run.sh`
+- `cd Records-update`
+- `sudo ./run.sh`
